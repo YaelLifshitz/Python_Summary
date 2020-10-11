@@ -98,7 +98,7 @@ plt.show()
 print("\n Changing the column headers:")
 df = pd.DataFrame({"Day": [1, 2, 3, 4], "visitors": [200, 100, 230, 300], "Bounce_Rate":[20, 45, 60, 10]})
 print("before:\n", df)
-df = df.rename(columns={"Visitors":"Users"}) # replace the header visitors with the header users
+df = df.rename(columns={"Visitors": "Users"}) # replace the header visitors with the header users
 print("after:\n", df)
 
 ########%%%%%%%%%#########%%%%%%%%
