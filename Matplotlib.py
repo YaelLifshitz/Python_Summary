@@ -119,7 +119,7 @@ plt.plot([],[],color='c',label='Playing', linewidth=5)
 plt.stackplot(days,sleeping,eating,working,playing,colors=['r','m','y','c'])
 plt.xlabel('x')
 plt.ylabel('y')
-plt.title("stack Plot")
+plt.title("Stack Plot")
 plt.legend()
 plt.show()
 ###############################################
